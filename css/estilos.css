@@ -1,0 +1,9 @@
+/* Estilos propios del proyecto Safe Driving. */
+:root { --sd-primary: #174ea6; }
+body { background: #f5f7fb; color: #202938; min-height: 100vh; }
+.navbar.bg-primary { background-color: var(--sd-primary) !important; }
+.app-section { min-height: 60vh; }
+.metric-card { border-left: 4px solid var(--sd-primary) !important; }
+.table thead th { white-space: nowrap; font-size: .88rem; }
+.badge-status { font-size: .78rem; }
+footer { background: #fff; }
